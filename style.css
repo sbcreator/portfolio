@@ -93,19 +93,96 @@ body{
     width: 85%;
     padding-left: 7.5%;
 }
-.container-right{
-    margin-top: 200px;
-    width: 100%;
-    height: 300px;
+.contact-container{
+    width: 85%;
+    padding-left: 7.5%;
+    text-align: center;
+    font-family: main;
+    color: white;
+}
+.socials-frame {
+    box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.212);
+    border-radius: 20px;
+    font-size: 40px;
+    width: 600px;
+    padding: 20px;
+    margin: 80px;
+    background: rgba(24, 24, 24, 0.566);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.btn-socials {
+    font-family: main-light;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
+    transition: 0.5s;
+    text-decoration: none;
+}
+.btn-socials:hover {
+    color: rgb(29, 29, 29);
+    background: rgb(255, 255, 255);
+}
+.contact-text-small {
+    font-family: main-light;
+    color: rgb(124, 124, 124);
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.contact-text-instagram {
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, rgb(236, 175, 8), rgb(219, 0, 146), rgb(132, 0, 255));
+    border-radius: 18px;
+}
+.container-right{
+    margin-top: 10vh;
+    width: 50%;
+    margin-left: 50%;
+    height: 300px;
+    color: rgb(218, 218, 218);
     text-align: right;
 }
-.container-left{
-    margin-top: 200px;
-    width: 100%;
+.container-right2{
+    margin-top: 100vh;
+    width: 50%;
+    margin-left: 50%;
     height: 300px;
-    color: rgb(255, 255, 255);
+    color: rgb(218, 218, 218);
+    text-align: right;
+    font-family: main-light;
+    font-size: 2.5vh;
+}
+.container-left{
+    margin-top: 72vh;
+    width: 50%;
+    height: 20vh;
+    font-size: 2.5vh;
+    color: rgb(218, 218, 218);
     text-align: left;
+    font-family: main-light;
+}
+.container-left2{
+    margin-top: 85vh;
+    width: 50%;
+    height: 20vh;
+    font-size: 2.5vh;
+    color: rgb(218, 218, 218);
+    text-align: left;
+    font-family: main-light;
+}
+.container-left3{
+    margin-top: 93vh;
+    width: 50%;
+    height: 20vh;
+    font-size: 2.5vh;
+    color: rgb(218, 218, 218);
+    text-align: left;
+    font-family: main-light;
 }
 .xd{
     font-size: 3vh;
@@ -168,6 +245,7 @@ body{
     width: 76%;
     padding-inline: 12%;
     font-size: 3vh;
+    margin-top: 6vh;
     font-family: main-light;
     color: rgb(141, 141, 141);
     text-align: left;
@@ -222,7 +300,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.remake-text-container{
+.xt-container{
     width: 53%;
     padding-inline: 6%;
 }
@@ -251,4 +329,33 @@ body{
     width: 70%;
     margin-bottom: 7vh;
     margin-top: 4vh;
+}
+.text {
+    color: white;
+    font-size: 15vh;
+    font-family: main;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.text1 {
+    color: rgb(255, 153, 0);
+    font-size: 15vh;
+    font-family: main;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.text:hover {
+    color: rgb(255, 153, 0);
+}
+.homepage_bold{
+    font-family: main;
+    font-size: 5vh;
+    color: white;
+    margin-bottom: 5vh;
+}
+.chyba_ze{
+    font-size: 3vh;
+}
+.remake-text-container{
+    width: 65%;
 }
